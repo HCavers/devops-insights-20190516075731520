@@ -21,7 +21,7 @@ ConsoleModule.controller('wcontroller', ['$scope', '$http', '$routeParams', '$ti
 		center: {lat: -34.397, lng: 150.644},
 		zoom: 8
 	  });
-	}
+	};
 
     $scope.zip = function(which) {
 
