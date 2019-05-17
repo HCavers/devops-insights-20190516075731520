@@ -37,7 +37,15 @@
       </div>
   	
 	  <div style="float:left; width:100%">	
-		<div id="map" style="width:10em">&nbsp;{{map}}</div>				
+		<div id="map" style="width:10em">&nbsp;{{map}}</div>
+			<script
+			var map;
+			function initMap() {
+				map = new google.maps.Map(document.getElementById('map'), {
+				center: {lat: -34.397, lng: 150.644},
+				zoom: 8
+			});
+			></script>
 	  </div>
 	</div>
 </div>
